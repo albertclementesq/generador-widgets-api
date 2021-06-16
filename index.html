@@ -20,7 +20,29 @@
 
         <div class="field is-grouped">
             <div class="control">
-                <button class="button is-link" onclick="getJSON()">Submit</button>
+                <button class="button is-primary" onclick="getJSON()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="field">
+            <label class="label">JSON Converted:</label>
+            <div class="control">
+                <textarea class="textarea" placeholder="Here will appear the converted code..." id="htmlContainer"></textarea>
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                <button class="button is-primary" onclick="copyCode()">
+                    <span class="icon-text">
+                        <span class="icon">
+                            <i class="fas fa-copy"></i>
+                        </span>
+                        <span>Copy</span>
+                    </span>
+                </button>
             </div>
         </div>
     </div>
